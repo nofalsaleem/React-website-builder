@@ -111,6 +111,8 @@ import Aboutvission from '../template3components/template3about/Aboutvission'
 import AboutService3 from '../template3components/template3about/AboutService3'
 import AboutPolicy3 from '../template3components/template3about/AboutPolicy3'
 import Pricing3About from "../template3components/template3about/Pricing3About";
+import Abouthero from "../template4components/template4about/Abouthero";
+import Contacthero from "../template4components/template4contact/Contacthero";
 
 export const templateComponents = {
     template1Components: [
@@ -311,12 +313,12 @@ export const templateComponents = {
         {
             groupName: "about",
             pageName: "About",
-            pageSections: [Header4, Navigation4, VisionAbout, AboutServices, PolicyAbout, OurGuards4, Partners4, Pricing4, Accreditation4, Subscribe4, FooterContact4, BottomFooter4]
+            pageSections: [Header4, Navigation4,Abouthero, VisionAbout, AboutServices, PolicyAbout, OurGuards4, Partners4, Pricing4, Accreditation4, Subscribe4, FooterContact4, BottomFooter4]
         },
         {
             groupName: "contact",
             pageName: "Contact",
-            pageSections: [Header4, Navigation4, AboutUs4, Form, Feedback, Subscribe4, FooterContact4, BottomFooter4]
+            pageSections: [Header4, Navigation4,Contacthero, AboutUs4, Form, Feedback, Subscribe4, FooterContact4, BottomFooter4]
         },
     ]
     // {
