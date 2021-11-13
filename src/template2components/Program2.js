@@ -81,6 +81,9 @@ export const Program2 = ({ showPopup, overSection }) => {
                 className={`${Program2moduleCss["exp-card1"]} ${Program2moduleCss.pp} ${Program2moduleCss["pp-2"]}`}
               >
                 <div className={`${Program2moduleCss["ecard-top"]}`}>
+                  <lord-icon src="https://cdn.lordicon.com/avyixiri.json" trigger="hover"
+                    colors="primary:#121331,secondary:#ffffff" style={{ "width": "100px", "height": "100px" }}>
+                  </lord-icon>
                   <h2>
                     <Editor
                       onInit={(evt, editor) => (editorRef.current = editor)}
@@ -126,13 +129,14 @@ export const Program2 = ({ showPopup, overSection }) => {
 
                   }}
                 />
-                {/* <p>Resilience allows individuals to bounce back from setbacks and stressful situations. Without this quality, some people may develop increased risks associated with an insider threat.
-    </p> */}
+               
               </div>
-              <div
-                className={`${Program2moduleCss["exp-card2"]} ${Program2moduleCss.pp}`}
-              >
+              <div className={`${Program2moduleCss["exp-card2"]} ${Program2moduleCss.pp}`}  >
                 <div className={`${Program2moduleCss["card-top"]}`}>
+                <div className={`${Program2moduleCss["ecard-top"]}`}>
+                  <lord-icon src="https://cdn.lordicon.com/pyssajqq.json" trigger="hover"
+                    colors="primary:#121331,secondary:#c0272d" style={{ "width": "100px", "height": "100px" }}>
+                  </lord-icon>
                   <h2>
                     <Editor
                       onInit={(evt, editor) => (editorRef.current = editor)}
@@ -156,6 +160,7 @@ export const Program2 = ({ showPopup, overSection }) => {
                       }}
                     />
                   </h2>
+                </div>
                 </div>
                 <Editor
                   onInit={(evt, editor) => (editorRef.current = editor)}
@@ -181,9 +186,11 @@ export const Program2 = ({ showPopup, overSection }) => {
                 {/* <p>Watch this video to see one of the Department of Defense's approaches to building cultural awareness and reducing risk in culturally diverse environments.</p> */}
               </div>
               <div
-                className={`${Program2moduleCss["exp-card3"]} ${Program2moduleCss.pp} ${Program2moduleCss["pp-2"]}`}
-              >
+                className={`${Program2moduleCss["exp-card3"]} ${Program2moduleCss.pp} ${Program2moduleCss["pp-2"]}`}>
                 <div className={`${Program2moduleCss["ecard-top"]}`}>
+                  <lord-icon src="https://cdn.lordicon.com/smwedssn.json" trigger="hover"
+                    colors="primary:#121331,secondary:#ffffff" style={{ "width": "100px", "height": "100px" }}>
+                  </lord-icon>
                   <h2>
                     <Editor
                       onInit={(evt, editor) => (editorRef.current = editor)}
@@ -232,9 +239,11 @@ export const Program2 = ({ showPopup, overSection }) => {
                 {/* <p>Cultural Awareness is critical for any workforce that seeks to yield positive outcomes. Watch this video to learn about cultural awareness in the workplace</p> */}
               </div>
               <div
-                className={`${Program2moduleCss["exp-card4"]} ${Program2moduleCss.pp}`}
-              >
+                className={`${Program2moduleCss["exp-card4"]} ${Program2moduleCss.pp}`}>
                 <div className={`${Program2moduleCss["ecard-top"]}`}>
+                  <lord-icon src="https://cdn.lordicon.com/rwotyanb.json" trigger="hover"
+                    colors="primary:#121331,secondary:#c0272d" style={{ "width": "100px", "height": "100px" }}>
+                  </lord-icon>
                   <h2>
                     <Editor
                       onInit={(evt, editor) => (editorRef.current = editor)}
@@ -281,10 +290,11 @@ export const Program2 = ({ showPopup, overSection }) => {
                   }}
                 />
               </div>
-              <div
-                className={`${Program2moduleCss["exp-card5"]} ${Program2moduleCss.pp} ${Program2moduleCss["pp-2"]}`}
-              >
+              <div className={`${Program2moduleCss["exp-card5"]} ${Program2moduleCss.pp} ${Program2moduleCss["pp-2"]}`}>
                 <div className={`${Program2moduleCss["ecard-top"]}`}>
+                  <lord-icon src="https://cdn.lordicon.com/akbjoiow.json" trigger="hover"
+                    colors="primary:#121331,secondary:#ffffff" style={{"width":"100px","height":"100px"}}>
+                  </lord-icon>
                   <h2>
                     <Editor
                       onInit={(evt, editor) => (editorRef.current = editor)}
@@ -330,12 +340,13 @@ export const Program2 = ({ showPopup, overSection }) => {
 
                   }}
                 />
-                {/* <p>Resilience allows individuals to bounce back from setbacks and stressful situations. Without this quality, some people may develop increased risks associated with an insider threat.</p> */}
               </div>
               <div
-                className={`${Program2moduleCss["exp-card6"]} ${Program2moduleCss.pp}`}
-              >
+                className={`${Program2moduleCss["exp-card6"]} ${Program2moduleCss.pp}`}>
                 <div className={`${Program2moduleCss["ecard-top"]}`}>
+                <lord-icon src="https://cdn.lordicon.com/yyecauzv.json" trigger="hover"
+            colors="primary:#121331,secondary:#c0272d" style={{"width":"100px","height":"100px"}}>
+          </lord-icon>
                   <h2>
                     <Editor
                       onInit={(evt, editor) => (editorRef.current = editor)}
