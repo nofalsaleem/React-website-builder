@@ -110,6 +110,7 @@
 
     .cardsWrapper {
         flex-direction: column;
+   align-items:center;
     }
 }
 .price-btn {

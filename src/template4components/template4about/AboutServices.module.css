@@ -4,7 +4,7 @@
     padding: 3rem 0 0;
 }
 .rowserv {
-    margin: 4rem 0 0;
+    margin: 4rem 0 4rem;
     display: flex;
     justify-content: space-around;
     
@@ -24,8 +24,12 @@
     text-align: left;
     margin: 3rem 3rem 0;
 }
+.long {
+    height:35rem;
+    width: 25rem;
+}
 .colser2 {
-    margin: 3rem 3rem 0;
+    margin: 3rem 3rem 0rem;
 
     display: flex;
     flex-direction: column;
@@ -57,8 +61,15 @@ margin: .7rem 1rem 0 ;
         align-items: center;
             
         }
-        .serimg {
+        .colser1 {
+            margin: 3rem 3rem 3rem;
+        }
+        /* .serimg {
            
             width: 400px;
+        } */
+        .long {
+         height: 44rem;
+            width: 25rem;
         }
     }

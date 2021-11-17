@@ -161,8 +161,7 @@ const HeroSection4ComponentImage = ({ displayDevice }) => {
                             }}
                         />
                     </h1>
-                    {/* <TextPara text="For your personal safety" classStyle={Hero4Css.paragraphHero} /> */}
-                    {/* <p style={{ lineHeight:`28px`,marginBottom:`2em`}}> */}
+
                     <Editor
                         onInit={(evt, editor) => editorRef.current = editor}
                         inline={true}

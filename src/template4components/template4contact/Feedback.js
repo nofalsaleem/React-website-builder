@@ -62,14 +62,14 @@ export default function Feedback({ showPopup, overSection }) {
                             inline={true}
                             key='abouted4'
                             tinymceScriptSrc="../assets/tinymce/tinymce.min.js"
-                            initialValue={`   CIS strives to achieve excellence in customer services to all
+                            initialValue={`<p>CIS strives to achieve excellence in customer services to all
                             stakeholders: clients, consumers, visitors, contractors, internal
                             and external customers and the general public. Any feedback will
                             be acknowledged within 10 days of receipt. Anyone wishing to make
                             a commendation, suggestion or complaint is kindly asked to do so
                             by downloading and completing the Feedback Form, and return to our
                             offices via the above email address, fax number or post/hand
-                            deliver to our offices at CIS Security Ltd, 418-426 Lewisham High`}
+                            deliver to our offices at CIS Security Ltd, 418-426 Lewisham High </p>`}
                             init={{
                                 forced_root_block: "",
                                 menubar: false,

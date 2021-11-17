@@ -168,7 +168,7 @@ export default function AboutServices({ showPopup, overSection }) {
                             onInit={(evt, editor) => editorRef.current = editor}
                             inline={true}
                             key='abouted1'
-                            initialValue={`<img src="https://i.ibb.co/M29c24H/guard-for-services-sec.png" alt="guard-for-services-sec" class="object-cover"/>`}
+                            initialValue={`<img src="https://i.ibb.co/M29c24H/guard-for-services-sec.png" alt="guard-for-services-sec" class="${AboutServicesmoduleCss.long} object-cover"/>`}
                             init={{
                                 forced_root_block: "",
                                 menubar: false,

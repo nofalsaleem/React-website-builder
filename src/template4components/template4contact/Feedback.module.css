@@ -15,7 +15,7 @@
     background-color: black;
   }
   .feedbackimg {
-   
+  margin: 3rem 0 3rem;
     /* filter: drop-shadow (10px 10px 0 #00c1cf); */
     border: 2px solid white;
   }
@@ -49,9 +49,19 @@
         display: flex;
      flex-direction: column;
       }
+      .feedback-wrapper h1 {
+      margin: 3rem 0 0;
+      }
       .feedback-wrapper button {
      
         width: 100%;
    
       }
+      .feedback-wrapper {
+        width: 80%;
+     
+    }
+    .feedbackimg {
+ margin: 3rem 0 0;
+    }
   }

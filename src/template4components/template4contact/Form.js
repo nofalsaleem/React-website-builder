@@ -320,7 +320,7 @@ export default function Form({ showPopup, overSection }) {
 
             </div>
           </div>
-          <form method="POST" className={`${formmoduleCss.form}`}>
+          <form className={`${formmoduleCss.form}`}>
             <div className={`${formmoduleCss['form-intro']}`}>
               <h1>
                 <Editor
@@ -395,8 +395,9 @@ export default function Form({ showPopup, overSection }) {
               rows="5"
               placeholder="Your Message or Enquiry *"
             ></textarea>
-            <div className={`${formmoduleCss['submit-btn']}`}>
-              <button className={`${formmoduleCss['submit-button']}`}>
+         <div className={`${formmoduleCss['submit-btn']}`}>
+              
+              <button className={`${formmoduleCss.submitbutton}`}>
                 <Editor
                   onInit={(evt, editor) => editorRef.current = editor}
                   inline={true}
@@ -416,6 +417,9 @@ export default function Form({ showPopup, overSection }) {
               </button>
             </div>
           </form>
+
+
+        
         </section>
       </section>
       <div style={(overSection && showPopup) ? { position: "absolute", top: "5rem", right: "5rem", zIndex: "9999999" } : { display: "none" }} className="toBeRemoved">

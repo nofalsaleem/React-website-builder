@@ -103,4 +103,18 @@
         width: 80%;
         text-align: center;
     }
+    .box1 p {
+        text-align: center;
+      }
+      .btnReadMore {
+        margin: 0 auto;
+          
+          }  
+          .box1 h6 {
+          margin: 3rem 0 2rem;
+        }
+}
+@media (max-width: 320px) {
+
+  
 }

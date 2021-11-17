@@ -55,7 +55,7 @@ export default function PolicyAbout({ showPopup, overSection }) {
                         onInit={(evt, editor) => editorRef.current = editor}
                         inline={true}
                         key='abouted1'
-                        initialValue={`<img src="https://i.ibb.co/zx40QL4/home-bg345.jpg" alt="home-bg345" class="object-cover"/>`}
+                        initialValue={`<img src="https://i.ibb.co/zx40QL4/home-bg345.jpg" alt="home-bg345" class="w-80 h-72 mb-12 object-cover"/>`}
                         init={{
                             forced_root_block: "",
                             menubar: false,
